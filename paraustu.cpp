@@ -1,11 +1,12 @@
 #include <iostream>
 #include <cmath>
 #include <Windows.h>
+
 using namespace std;
 
 int yuzluk,elli,yirmi,on,bes,bir,ellikurus,yirmibes,onkurus,beskurus; // Para birimlerini tanimladik.
 
-void Ode(double x) { 						//Para üstünü hesaplayan tanimli fonksiyon.
+void Ode(double x) { 						//Para Ã¼stÃ¼nÃ¼ hesaplayan tanimli fonksiyon.
 
                 yuzluk = (int)(x / 100);    
                 x = fmod(x,100.0);
