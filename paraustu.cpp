@@ -1,3 +1,15 @@
+
+/*
+
+Title : PARA ÜSTÜ HESAPLAMA 
+
+Author : Ertan Yağmur (exproot)
+
+Date : 3 Dec 2020
+
+*/
+
+
 #include <iostream>
 #include <cmath>
 #include <Windows.h>
